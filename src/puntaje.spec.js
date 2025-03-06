@@ -12,4 +12,8 @@ describe("Marcador de puntaje de tenis", () => {
   it("Deberia devolver el marador 2-0", () => {
     expect(obtenerScore(2,0)).toEqual("30 - 0");
   });
+  it("Deberia devolver el marador 3-0", () => {
+    expect(obtenerScore(3,0)).toEqual("40 - 0");
+  });
+  
 });
